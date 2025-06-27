@@ -8,11 +8,9 @@ This project explores sentiment dynamics from Reddit posts and comments to uncov
 
 ```
 RedditSentimentAnalysis/
-├── data/                # Raw datasets (not included in the repository)
 ├── notebooks/           # Jupyter Notebooks for EDA and sentiment analysis
 ├── processed_data/      # Cleaned and transformed CSV files
 ├── outputs/             # Charts, plots, and visual results
-├── src/                 # Utility scripts and future modules (not included)
 ├── README.md            # Project documentation
 └── .gitignore           # Excludes cache and large/raw data files
 ```
