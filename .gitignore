@@ -1,0 +1,29 @@
+# ━━━━━━━━━━ Raw and big data ━━━━━━━━━━
+data/raw/*
+# To keep the folder empty.
+!data/raw/.gitkeep  
+
+# ━━━━━━━━━━ Environmental files and keys ━━━━━━━━━━
+.env
+*.key
+*.json
+
+# ━━━━━━━━━━ System files and editors ━━━━━━━━━━
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+
+# ━━━━━━━━━━ Jupyter temporary files ━━━━━━━━━━
+.ipynb_checkpoints/
+*.ipynb
+
+# ━━━━━━━━━━ Temporary Python files ━━━━━━━━━━
+*.pyc
+*.log
+*.tmp
+
+# ━━━━━━━━━━ Large media files ━━━━━━━━━━
+*.mp4
+*.mov
+*.avi
